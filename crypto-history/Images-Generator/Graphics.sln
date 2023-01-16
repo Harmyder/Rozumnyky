@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Graphics", "Graphics\Graphics.pyproj", "{D0DEC03E-1097-4B70-9782-593EB3415B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Texts", "Texts\Texts.csproj", "{F765903B-82C8-4C93-B156-6BFA43154DCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0DEC03E-1097-4B70-9782-593EB3415B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DEC03E-1097-4B70-9782-593EB3415B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F765903B-82C8-4C93-B156-6BFA43154DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F765903B-82C8-4C93-B156-6BFA43154DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F765903B-82C8-4C93-B156-6BFA43154DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F765903B-82C8-4C93-B156-6BFA43154DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4861738C-1A24-4D96-9126-8F8F3EF27DC3}
+	EndGlobalSection
+EndGlobal
