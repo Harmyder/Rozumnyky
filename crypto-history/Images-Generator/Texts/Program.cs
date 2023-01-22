@@ -18,7 +18,7 @@ File.WriteAllText("table.txt", table);
 {
     var keyword = alphabet[11].ToString().ToUpperInvariant();
     var vigenere = new Vigenere(alphabet);
-    var expectedText = "ЄхиднаґаваїжакщейшиплячіплазунибігцемфорсуютьЯнцзи".ToUpperInvariant();
+    var expectedText = "Мудрістьуділахліпшазамудрістьусловах".ToUpperInvariant();
     var cipher = vigenere.Encode(expectedText, keyword);
     var actualText = vigenere.Decode(cipher, keyword);
     if (actualText != expectedText)
